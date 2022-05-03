@@ -1,0 +1,18 @@
+$cl__red: hsl(0, 78%, 62%);
+$cl__cyan: hsl(180, 62%, 55%);
+$cl__orange: hsl(34, 97%, 64%);
+$cl__blue: hsl(212, 86%, 64%);
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+$cl__title: hsl(234, 12%, 34%);
+$cl__txt: hsl(229, 6%, 66%);
+$cl__bg: hsl(0, 0%, 98%);
+
+body,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,75 @@
+.card {
+  background: white;
+  position: relative;
+  padding: 5px 30px 15px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0.5px $cl__txt;
+  h1 {
+    color: $cl__title;
+    margin-bottom: 5pxpx;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+.card__cyan {
+  &::before {
+    content: "";
+    position: absolute;
+    background: $cl__cyan;
+    height: 100%;
+    width: 99.9%;
+    right: 0px;
+    bottom: 3px;
+    z-index: -1;
+    border-radius: 5px;
+  }
+}
+.card__red {
+  &::before {
+    content: "";
+    position: absolute;
+    background: $cl__red;
+    height: 100%;
+    width: 99%;
+    right: 2px;
+    bottom: 3px;
+    z-index: -1;
+    border-radius: 5px;
+  }
+}
+.card__orange {
+  &::before {
+    content: "";
+    position: absolute;
+    background: $cl__orange;
+    height: 100%;
+    width: 99%;
+    right: 2px;
+    bottom: 3px;
+    z-index: -1;
+    border-radius: 5px;
+  }
+}
+.card__blue {
+  &::before {
+    content: "";
+    position: absolute;
+    background: $cl__blue;
+    height: 100%;
+    width: 99%;
+    right: 2px;
+    bottom: 3px;
+    z-index: -1;
+    border-radius: 5px;
+  }
+}
